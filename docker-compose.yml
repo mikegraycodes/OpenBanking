@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+
+  sql.data:
+    image: microsoft/mssql-server-linux:2017-latest
+
+  account:
+    image: ${DOCKER_REGISTRY-}account
+    build:
+      context: .
+      dockerfile: src/Account/Dockerfile
+    depends_on:
+      - sql.data
+      - rabbitmq
+
+  openbanking:
+    image: ${DOCKER_REGISTRY-}openbanking
+    build:
+      context: .
+      dockerfile: src/OpenBanking/Dockerfile
+    depends_on:
+      - sql.data
+      - rabbitmq
+

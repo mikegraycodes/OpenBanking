@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Account", "src\Account\Account.csproj", "{DEA865AC-1F94-4497-AD6A-72B49E49C763}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus", "src\EventBus\EventBus.csproj", "{B08489C2-F963-43F1-BD7E-5FE2BBF59B45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.RabbitMQ", "src\EventBus.RabbitMQ\EventBus.RabbitMQ.csproj", "{113007C0-34B4-4EEF-AAB8-8B608FA7DAA9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7FA73120-F826-43DB-94D3-9B959C6D9DCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Account.IntegrationEvents", "src\Account.IntegrationEvents\Account.IntegrationEvents.csproj", "{E106BF8E-DB8E-462C-BA91-504882CA1AD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewRegulation", "src\NewRegulation\NewRegulation.csproj", "{06EE68CA-5C5A-4695-894B-C5AE7DB8F1D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenBanking", "src\OpenBanking\OpenBanking.csproj", "{3A35A8BA-A5E0-4696-AA3F-689985B8FFD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEA865AC-1F94-4497-AD6A-72B49E49C763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA865AC-1F94-4497-AD6A-72B49E49C763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA865AC-1F94-4497-AD6A-72B49E49C763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA865AC-1F94-4497-AD6A-72B49E49C763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B08489C2-F963-43F1-BD7E-5FE2BBF59B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B08489C2-F963-43F1-BD7E-5FE2BBF59B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B08489C2-F963-43F1-BD7E-5FE2BBF59B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B08489C2-F963-43F1-BD7E-5FE2BBF59B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113007C0-34B4-4EEF-AAB8-8B608FA7DAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113007C0-34B4-4EEF-AAB8-8B608FA7DAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113007C0-34B4-4EEF-AAB8-8B608FA7DAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113007C0-34B4-4EEF-AAB8-8B608FA7DAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA73120-F826-43DB-94D3-9B959C6D9DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA73120-F826-43DB-94D3-9B959C6D9DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA73120-F826-43DB-94D3-9B959C6D9DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA73120-F826-43DB-94D3-9B959C6D9DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E106BF8E-DB8E-462C-BA91-504882CA1AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E106BF8E-DB8E-462C-BA91-504882CA1AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E106BF8E-DB8E-462C-BA91-504882CA1AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E106BF8E-DB8E-462C-BA91-504882CA1AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EE68CA-5C5A-4695-894B-C5AE7DB8F1D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EE68CA-5C5A-4695-894B-C5AE7DB8F1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EE68CA-5C5A-4695-894B-C5AE7DB8F1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EE68CA-5C5A-4695-894B-C5AE7DB8F1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A35A8BA-A5E0-4696-AA3F-689985B8FFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A35A8BA-A5E0-4696-AA3F-689985B8FFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A35A8BA-A5E0-4696-AA3F-689985B8FFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A35A8BA-A5E0-4696-AA3F-689985B8FFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AC5EE29-DE15-4ACF-968C-C361DA1E0AA6}
+	EndGlobalSection
+EndGlobal
