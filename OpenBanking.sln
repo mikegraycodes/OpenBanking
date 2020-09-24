@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Account", "src\Account\Account.csproj", "{DEA865AC-1F94-4497-AD6A-72B49E49C763}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Internal", "src\Account\Internal.csproj", "{DEA865AC-1F94-4497-AD6A-72B49E49C763}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus", "src\EventBus\EventBus.csproj", "{B08489C2-F963-43F1-BD7E-5FE2BBF59B45}"
 EndProject
